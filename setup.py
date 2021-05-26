@@ -5,7 +5,7 @@ import grp
 from myDevices import __version__
 from myDevices.system.hardware import Hardware
 
-pip3 install psutil paho-mqtt netifaces enum34
+os.system('pip3 install psutil paho-mqtt netifaces enum34')
 
 classifiers = ['Development Status :: 5 - Production/Stable',
                'Operating System :: POSIX :: Linux',
